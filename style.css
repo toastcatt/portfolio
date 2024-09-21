@@ -1,0 +1,44 @@
+
+*{
+    text-decoration: none;
+}   
+.navbar{
+    background: lightblue ; font-family: calibri;padding-right: 15px;padding-left: 15px; padding-top: 15px;
+}
+.logo{
+    height: 100px; width: 200px;
+}
+.navdiv{display: flex; align-items: center;justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color:white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button{
+    background-color: black; margin-left: 10px; border-radius: 10px; padding:10px; width:90px;
+}
+button a{ color: white; font-weight:bold; font-size: 15px;}
+
+div { background-color: #c8dfee; }
+Main {
+    display: grid;
+    grid-template: 170px 170px / 170px 170px 170px;
+    grid-gap: 25px 25px;
+}
+nav, section,footer{
+    Display:grid;
+    width: 100%;
+    margin-bottom: 7px}
+.navdiv2{
+    grid-template: 80px / 120px 1fr;
+    grid-gap:20px;
+}
+nav div:nth-of-type(2){
+    height: 40px;
+    align-self: center;}
+section {grid-template-rows: 200px;}
